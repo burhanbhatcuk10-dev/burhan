@@ -9,7 +9,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 // Pages
-import OverviewPage from './Pages/ContactPage.jsx';
+import OverviewPage from './Pages/OverviewPage.jsx';
 import ProjectsPage from './Pages/ProjectsPage.jsx';
 import ExperienceSkillsPage from './Pages/ExperienceSkillsPage.jsx';
 import ContactPage from './Pages/ContactPage.jsx';
