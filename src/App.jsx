@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
+
 // Preloader & Canvas Components
 import LogoPortfolioAnimation from './components/LogoPortfolioAnimation';
 import SpotlightEngine from './components/SpotlightEngine';
@@ -8,10 +9,10 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 // Pages
-import OverviewPage from './pages/OverviewPage';
-import ProjectsPage from './pages/ProjectsPage';
-import ExperienceSkillsPage from './pages/ExperienceSkillsPage';
-import ContactPage from './pages/ContactPage';
+import OverviewPage from './Pages/ContactPage.jsx';
+import ProjectsPage from './Pages/ProjectsPage.jsx';
+import ExperienceSkillsPage from './Pages/ExperienceSkillsPage.jsx';
+import ContactPage from './Pages/ContactPage.jsx';
 
 export default function App() {
   const [showIntro, setShowIntro] = useState(true);
